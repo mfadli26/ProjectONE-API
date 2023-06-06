@@ -32,7 +32,6 @@ func init() {
 	if err != nil {
 		logrus.Fatal(err)
 	}
-
 	logrus.SetReportCaller(true)
 	logrus.SetOutput(os.Stdout)
 	logrus.SetLevel(logrus.DebugLevel)
