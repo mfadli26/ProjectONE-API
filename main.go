@@ -27,7 +27,6 @@ func init() {
 			"cause": err,
 		}).Fatal("Load .env file error")
 	}
-
 	err = config.Load(PASSWORD)
 	if err != nil {
 		logrus.Fatal(err)
